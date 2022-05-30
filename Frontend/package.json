@@ -1,0 +1,71 @@
+{
+  "name": "agri-chain",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@truffle/contract": "^4.5.6",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "crypto-js": "^3.1.9-1",
+    "fs": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "nodemon": "^2.0.15",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.2.3",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.0.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.72.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "proxy": "http://localhost:5000/",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "config-overrides.js",
+  "author": "",
+  "license": "ISC"
+}
